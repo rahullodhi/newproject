@@ -12,10 +12,11 @@
     font-size: 29px;
     font-weight: 700;
     position: relative;
+    display: inline-block;
     color: white;
 }
 h1:after {
-    left: -58px;
+    left: -215px;
     background: #ffffff8a;
     content: "";
     padding: 19px 97px;
@@ -23,7 +24,7 @@ h1:after {
     position: absolute;
 }
 h1:before {
-    right: -58px;
+    right: -215px;
     background: #ffffff8a;
     content: "";
     padding: 19px 97px;
@@ -53,7 +54,7 @@ h1:before {
     font-weight: 700;
 }
 .slick-dots li button:before{
-    top: -49px;
+    top: -40px;
 }
 .slick-dots li.slick-active button:before {
     color: white;
